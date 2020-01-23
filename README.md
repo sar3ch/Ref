@@ -7,6 +7,7 @@ References, links etc. for web developers, web designers, techies, nerds, geeks 
 - [Ref](#ref)
     - [Web Basics](#web-basics)
     - [IDEs & Editors](#ides--editors)
+    - [Education](#education)
 
 ## Web Basics
 
@@ -25,7 +26,6 @@ References, links etc. for web developers, web designers, techies, nerds, geeks 
 * [vscodium](https://vscodium.com/) - same as Visual Studio Code but without telemetry to MS
 * [vim](https://www.vim.org/) - must have
 * [emacs](https://www.gnu.org/software/emacs/) - good to know
-
 
 ## Education
 
