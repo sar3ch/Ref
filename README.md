@@ -6,6 +6,7 @@ References, links etc. for web developers, web designers, techies, nerds, geeks 
 
 - [Ref](#ref)
     - [Web Basics](#web-basics)
+    - [IDEs & Editors](#ides-editors)
 
 ## Web Basics
 
