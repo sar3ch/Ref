@@ -25,3 +25,12 @@ References, links etc. for web developers, web designers, techies, nerds, geeks 
 * [vscodium](https://vscodium.com/) - same as Visual Studio Code but without telemetry to MS
 * [vim](https://www.vim.org/) - must have
 * [emacs](https://www.gnu.org/software/emacs/) - good to know
+
+
+## Education
+
+*Learn about the web and programming stuff.*
+
+* [freecodecamp](https://www.freecodecamp.org/) - Learn to code
+* [edX](https://www.edx.org/) - MOOC by famous universities, some good courses (mostly entry level & beginner)
+* [w3schools](https://www.w3schools.com/) - web developer tutorials, references, examples
