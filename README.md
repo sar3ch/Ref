@@ -16,6 +16,7 @@ References, links etc. for web developers, web designers, techies, nerds, geeks 
     - [VM & Container](#vm--container)
     - [Graphical Tools](#graphical-tools)
     - [Version Control](#version-control)
+    - [Must Haves](#must-haves)
 
 ## Web Basics
 
@@ -53,6 +54,8 @@ References, links etc. for web developers, web designers, techies, nerds, geeks 
 * [Edge](https://www.microsoft.com/en-us/edge)
 * [Safari](https://www.apple.com/safari/)
 * [Vivaldi](https://vivaldi.com/)
+* [Opera](https://www.opera.com/)
+* [Brave](https://brave.com/)
 
 ## Education
 
@@ -61,6 +64,7 @@ References, links etc. for web developers, web designers, techies, nerds, geeks 
 * [freecodecamp](https://www.freecodecamp.org/) - Learn to code
 * [edX](https://www.edx.org/) - MOOC by famous universities, some good courses (mostly entry level & beginner)
 * [w3schools](https://www.w3schools.com/) - web developer tutorials, references, examples
+* [sar3 YouTube Channel](https://www.youtube.com/channel/UCMUb0QvVkhZz3YO6cd6v3PA) - our own channel (mostly education)
 
 ## Linux
 
@@ -99,3 +103,11 @@ References, links etc. for web developers, web designers, techies, nerds, geeks 
 * [git](https://git-scm.com/)
 * [github](https://github.com/) - Code repository by Microsoft
 * [gitlab](https://gitlab.com/) - Code repository and CI/CD
+
+## Must Haves
+
+*Stuff you really should have on your computer.*
+
+* [wget](https://www.gnu.org/software/wget/) -  package for retrieving files using HTTP, HTTPS, FTP and FTPS the most widely-used Internet protocols (install via brew or choco)
+* [curl](https://curl.haxx.se/) - command line tool and library for transferring data with URLs (try brew or choco)
+* [KeepassXC](https://keepassxc.org/) -  a password manager
