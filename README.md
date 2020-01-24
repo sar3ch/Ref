@@ -12,6 +12,8 @@ References, links etc. for web developers, web designers, techies, nerds, geeks 
     - [Linux](#linux)
     - [Mac](#mac)
     - [Windows related](#windows)
+    - [Container](#container)
+    - [Graphical Tools](#graphical-tools)
 
 ## Web Basics
 
@@ -66,3 +68,14 @@ References, links etc. for web developers, web designers, techies, nerds, geeks 
 
 * [chocolatey](https://chocolatey.org/) - package manager for windows
 * [WSL info](https://docs.microsoft.com/en-us/windows/wsl/about) - Windows Subsystem for Linux Documentation
+
+## Container
+
+* [Docker](https://www.docker.com/)
+* [Docker Hub](https://hub.docker.com/)
+
+## Graphical Tools
+
+* [Adobe Create Cloud](https://www.adobe.com/creativecloud.html)
+* [Gimp](https://www.gimp.org/)
+- [Inkscape](https://inkscape.org/)
