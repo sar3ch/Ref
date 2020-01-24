@@ -13,7 +13,7 @@ References, links etc. for web developers, web designers, techies, nerds, geeks 
     - [Linux](#linux)
     - [Mac](#mac)
     - [Windows related](#windows)
-    - [Container](#container)
+    - [VM & Container](#vm--container)
     - [Graphical Tools](#graphical-tools)
     - [Version Control](#version-control)
 
@@ -81,16 +81,18 @@ References, links etc. for web developers, web designers, techies, nerds, geeks 
 * [chocolatey](https://chocolatey.org/) - package manager for windows
 * [WSL info](https://docs.microsoft.com/en-us/windows/wsl/about) - Windows Subsystem for Linux Documentation
 
-## Container
+## VM & Container
 
-* [Docker](https://www.docker.com/)
-* [Docker Hub](https://hub.docker.com/)
+* [Docker](https://www.docker.com/) - Container technology
+* [Docker Hub](https://hub.docker.com/) - Container image repository
+* [Virtualbox](https://www.virtualbox.org/) - Virtual machines
+* [Vagrant](https://www.vagrantup.com/) - Virtual machines management (for developers)
 
 ## Graphical Tools
 
 * [Adobe Create Cloud](https://www.adobe.com/creativecloud.html)
 * [Gimp](https://www.gimp.org/)
-- [Inkscape](https://inkscape.org/)
+* [Inkscape](https://inkscape.org/)
 
 ## Version Control
 
