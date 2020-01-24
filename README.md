@@ -8,12 +8,14 @@ References, links etc. for web developers, web designers, techies, nerds, geeks 
     - [Web Basics](#web-basics)
     - [JavaScript](#javascript)
     - [IDEs & Editors](#ides--editors)
+    - [Browsers](#browsers)
     - [Education](#education)
     - [Linux](#linux)
     - [Mac](#mac)
     - [Windows related](#windows)
     - [Container](#container)
     - [Graphical Tools](#graphical-tools)
+    - [Version Control](#version-control)
 
 ## Web Basics
 
@@ -41,6 +43,14 @@ References, links etc. for web developers, web designers, techies, nerds, geeks 
 * [emacs](https://www.gnu.org/software/emacs/) - good to know
 * [Atom](https://atom.io/) - githubs editor 
 * [IntelliJ IDEA](https://www.jetbrains.com/idea/) - paid editor (with a community edition) 
+
+## Browsers
+
+* [Google Chrome](https://www.google.com/chrome/)
+* [Firefox Developer Edition](https://www.mozilla.org/en-US/firefox/developer/)
+* [Edge](https://www.microsoft.com/en-us/edge)
+* [Safari](https://www.apple.com/safari/)
+* [Vivaldi](https://vivaldi.com/)
 
 ## Education
 
@@ -79,3 +89,9 @@ References, links etc. for web developers, web designers, techies, nerds, geeks 
 * [Adobe Create Cloud](https://www.adobe.com/creativecloud.html)
 * [Gimp](https://www.gimp.org/)
 - [Inkscape](https://inkscape.org/)
+
+## Version Control
+
+* [git](https://git-scm.com/)
+* [github](https://github.com/) - Code repository by Microsoft
+* [gitlab](https://gitlab.com/) - Code repository and CI/CD
