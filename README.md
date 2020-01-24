@@ -6,6 +6,7 @@ References, links etc. for web developers, web designers, techies, nerds, geeks 
 
 - [Ref](#ref)
     - [Web Basics](#web-basics)
+    - [JavaScript](#javascript)
     - [IDEs & Editors](#ides--editors)
     - [Education](#education)
     - [Linux](#linux)
@@ -20,6 +21,13 @@ References, links etc. for web developers, web designers, techies, nerds, geeks 
 * [web.dev](https://web.dev/) - What Google think it's important for the web
 * [Google Developers](https://developers.google.com/) - some google stuff for developers
 * [w3c](https://www.w3.org/) - World Wide Web Consortium
+
+## JavaScript
+
+*JavaScript related stuff*
+
+* [ECMAScript](https://www.ecma-international.org/publications/standards/Ecma-262.htm) - JavaScript language specifications (ECMA-262)
+* [NodeJS](https://nodejs.org/en/) - JavaScript runtime without the browser
 
 ## IDEs / Editors
 
