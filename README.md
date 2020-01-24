@@ -32,6 +32,8 @@ References, links etc. for web developers, web designers, techies, nerds, geeks 
 
 * [ECMAScript](https://www.ecma-international.org/publications/standards/Ecma-262.htm) - JavaScript language specifications (ECMA-262)
 * [NodeJS](https://nodejs.org/en/) - JavaScript runtime without the browser
+* [npm](https://www.npmjs.com/) - JavaScript package repository
+* [yarn](https://yarnpkg.com/) - alternative package manager - with cool features
 
 ## IDEs / Editors
 
