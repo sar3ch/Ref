@@ -8,6 +8,9 @@ References, links etc. for web developers, web designers, techies, nerds, geeks 
     - [Web Basics](#web-basics)
     - [IDEs & Editors](#ides--editors)
     - [Education](#education)
+    - [Linux](#linux)
+    - [Mac](#mac)
+    - [Windows related](#windows)
 
 ## Web Basics
 
@@ -26,6 +29,8 @@ References, links etc. for web developers, web designers, techies, nerds, geeks 
 * [vscodium](https://vscodium.com/) - same as Visual Studio Code but without telemetry to MS
 * [vim](https://www.vim.org/) - must have
 * [emacs](https://www.gnu.org/software/emacs/) - good to know
+* [Atom](https://atom.io/) - githubs editor 
+* [IntelliJ IDEA](https://www.jetbrains.com/idea/) - paid editor (with a community edition) 
 
 ## Education
 
@@ -34,3 +39,22 @@ References, links etc. for web developers, web designers, techies, nerds, geeks 
 * [freecodecamp](https://www.freecodecamp.org/) - Learn to code
 * [edX](https://www.edx.org/) - MOOC by famous universities, some good courses (mostly entry level & beginner)
 * [w3schools](https://www.w3schools.com/) - web developer tutorials, references, examples
+
+## Linux
+
+*Linux related stuff*
+
+* [DistroWatch](https://distrowatch.com/) - Linux distributions overview
+
+## Mac
+
+*Mac related stuff*
+
+* [Homebrew](https://brew.sh) - package manager for Mac
+
+## Windows
+
+*Windows related stuff*
+
+* [chocolatey](https://chocolatey.org/) - package manager for windows
+* [WSL info](https://docs.microsoft.com/en-us/windows/wsl/about) - Windows Subsystem for Linux Documentation
