@@ -26,6 +26,9 @@ References, links etc. for web developers, web designers, techies, nerds, geeks 
 * [web.dev](https://web.dev/) - What Google think it's important for the web
 * [Google Developers](https://developers.google.com/) - some google stuff for developers
 * [w3c](https://www.w3.org/) - World Wide Web Consortium
+* [Internet Basics](https://web.stanford.edu/class/msande91si/www-spr04/readings/week1/InternetWhitepaper.htm) - some basics used in a youtube video explaining itN
+* [HTTP info](https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview) - info on http from MD
+
 
 ## JavaScript
 
