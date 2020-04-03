@@ -1,0 +1,105 @@
+https://wordpress.org/
+
+https://ubuntu.com/
+
+https://www.hetzner.com/cloud
+
+# Generating new SSH keys for adding it to the hetzner cloud for direct access
+https://help.github.com/en/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
+
+
+# login to the server
+ssh root@IP-ADDRESS
+
+# update of the new ubuntu os
+sudo apt-get update && sudo apt-get dist-upgrade
+
+# find a website explaining how to install wordpress on a fresh ubuntu 18.04
+# e.g.
+https://www.digitalocean.com/community/tutorials/how-to-install-wordpress-with-lamp-on-ubuntu-18-04
+
+
+# lamp install
+sudo apt update
+sudo apt install apache2
+
+# install mysql server
+apt install mysql-server
+
+# secure installation
+mysql_secure_installation
+sudo mysql
+SELECT user,authentication_string,plugin,host FROM mysql.user;
+ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'password';
+FLUSH PRIVILEGES;
+SELECT user,authentication_string,plugin,host FROM mysql.user;
+exit
+
+# php installation
+apt install php libapache2-mod-php php-mysql
+
+# change order of file /etc/apache2/mods-enabled/dir.conf put index.php in first place
+vi /etc/apache2/mods-enabled/dir.conf
+or
+nano /etc/apache2/mods-enabled/dir.conf
+
+
+# test in file /var/www/html/index.php with following content
+<?php
+phpinfo();
+?>
+
+if this info page works in browser with: http://IP-ADDRESS
+
+
+# creating db for wordpress
+mysql -u root -p
+CREATE DATABASE wordpress DEFAULT CHARACTER SET utf8 COLLATE utf8_unicode_ci;
+GRANT ALL ON wordpress.* TO 'wordpressuser'@'localhost' IDENTIFIED BY 'password';
+FLUSH PRIVILEGES;
+exit;
+
+
+# install php extensions
+sudo apt update
+sudo apt install php-curl php-gd php-mbstring php-xml php-xmlrpc php-soap php-intl php-zip
+
+systemctl restart apache2
+
+
+# dont need to move to /var/www/wordpress
+# download wordpress and unpack it to the /var/www/html
+# change permissons/ownership on that folder
+
+a2enmod rewrite
+
+systemctl restart apache2
+
+cd /var/www
+curl -O https://wordpress.org/latest.tar.gz
+tar -xvf latest.tar.gz
+
+rm /var/www/html/index*
+
+cp /var/www/wordpress/* -R /var/www/html
+
+touch /var/www/html/.htaccess
+
+
+cd /var/www/html/
+cp wp-config-sample.php wp-config.php
+
+chown -R www-data:www-data /var/www/html
+sudo find /var/www/html/ -type d -exec chmod 750 {} \;
+sudo find /var/www/html/ -type f -exec chmod 640 {} \;
+
+
+# change stuff in wp-config.php
+-> db stuff
+
+# generate some keys
+curl -s https://api.wordpress.org/secret-key/1.1/salt/
+
+# and enter it in the wp-config.php file.
+
+Should work now... check under http://IP-ADDRESS
